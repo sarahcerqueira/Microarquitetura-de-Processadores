@@ -1,0 +1,259 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect -48 328 152 344)
+	(text "INPUT" (rect 157 0 185 10)(font "Arial" (font_size 6)))
+	(text "switchs_export[3..0]" (rect 5 0 104 12)(font "Arial" ))
+	(pt 200 8)
+	(drawing
+		(line (pt 116 12)(pt 141 12))
+		(line (pt 116 4)(pt 141 4))
+		(line (pt 145 8)(pt 200 8))
+		(line (pt 116 12)(pt 116 4))
+		(line (pt 141 4)(pt 145 8))
+		(line (pt 141 12)(pt 145 8))
+	)
+	(text "VCC" (rect 160 7 180 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 120 208 288 224)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "clk_clk" (rect 5 0 39 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 120 168 288 184)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "botao_export" (rect 5 0 68 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 88 288 288 304)
+	(text "OUTPUT" (rect 161 6 199 16)(font "Arial" (font_size 6)))
+	(text "display1_export[7..0]" (rect 5 4 108 16)(font "Arial" ))
+	(pt 200 8)
+	(drawing
+		(line (pt 200 8)(pt 148 8))
+		(line (pt 148 12)(pt 122 12))
+		(line (pt 148 4)(pt 122 4))
+		(line (pt 148 4)(pt 148 12))
+		(line (pt 122 12)(pt 118 8))
+		(line (pt 118 8)(pt 122 4))
+		(line (pt 122 4)(pt 118 8))
+	)
+	(rotate180)
+)
+(pin
+	(output)
+	(rect 88 248 288 264)
+	(text "OUTPUT" (rect 161 6 199 16)(font "Arial" (font_size 6)))
+	(text "display0_export[7..0]" (rect 5 4 108 16)(font "Arial" ))
+	(pt 200 8)
+	(drawing
+		(line (pt 200 8)(pt 148 8))
+		(line (pt 148 12)(pt 122 12))
+		(line (pt 148 4)(pt 122 4))
+		(line (pt 148 4)(pt 148 12))
+		(line (pt 122 12)(pt 118 8))
+		(line (pt 118 8)(pt 122 4))
+		(line (pt 122 4)(pt 118 8))
+	)
+	(rotate180)
+)
+(symbol
+	(rect 224 312 256 328)
+	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 3 5 25 22)(font "Intel Clear" )(invisible))
+	(port
+		(pt 16 16)
+		(output)
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(line (pt 16 16)(pt 16 8))
+	)
+	(drawing
+		(line (pt 8 8)(pt 24 8))
+	)
+)
+(symbol
+	(rect 288 104 576 408)
+	(text "projetoNiosQsys" (rect 96 -1 209 15)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 288 25 300)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "botao_export" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "botao_export" (rect 4 61 79 75)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 112 72))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "clk_clk" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 101 41 115)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 112 112))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "reset_reset_n" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 221 84 235)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 112 232))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "switchs_export[7..0]" (rect 0 0 118 14)(font "Arial" (font_size 8)))
+		(text "switchs_export[7..0]" (rect 4 261 122 275)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 112 272)(line_width 3))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "display0_export[7..0]" (rect 0 0 119 14)(font "Arial" (font_size 8)))
+		(text "display0_export[7..0]" (rect 4 141 123 155)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 112 152)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(output)
+		(text "display1_export[7..0]" (rect 0 0 119 14)(font "Arial" (font_size 8)))
+		(text "display1_export[7..0]" (rect 4 181 123 195)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 112 192)(line_width 3))
+	)
+	(drawing
+		(text "botao" (rect 81 43 117 58)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 67 147 79)(font "Arial" (color 0 0 0)))
+		(text "clk" (rect 97 83 114 98)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 117 107 131 119)(font "Arial" (color 0 0 0)))
+		(text "display0" (rect 66 123 120 138)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 147 147 159)(font "Arial" (color 0 0 0)))
+		(text "display1" (rect 68 163 122 178)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 187 147 199)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 83 203 116 218)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 117 227 153 239)(font "Arial" (color 0 0 0)))
+		(text "switchs" (rect 69 243 118 258)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 267 147 279)(font "Arial" (color 0 0 0)))
+		(text " projetoNiosQsys " (rect 214 288 303 300)(font "Arial" ))
+		(line (pt 112 32)(pt 176 32))
+		(line (pt 176 32)(pt 176 288))
+		(line (pt 112 288)(pt 176 288))
+		(line (pt 112 32)(pt 112 288))
+		(line (pt 113 52)(pt 113 76))
+		(line (pt 114 52)(pt 114 76))
+		(line (pt 113 92)(pt 113 116))
+		(line (pt 114 92)(pt 114 116))
+		(line (pt 113 132)(pt 113 156))
+		(line (pt 114 132)(pt 114 156))
+		(line (pt 113 172)(pt 113 196))
+		(line (pt 114 172)(pt 114 196))
+		(line (pt 113 212)(pt 113 236))
+		(line (pt 114 212)(pt 114 236))
+		(line (pt 113 252)(pt 113 276))
+		(line (pt 114 252)(pt 114 276))
+		(line (pt 0 0)(pt 288 0))
+		(line (pt 288 0)(pt 288 304))
+		(line (pt 0 304)(pt 288 304))
+		(line (pt 0 0)(pt 0 304))
+	)
+)
+(symbol
+	(rect 88 408 120 440)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst2" (rect 3 21 25 38)(font "Intel Clear" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
+(connector
+	(pt 288 336)
+	(pt 240 336)
+)
+(connector
+	(pt 240 336)
+	(pt 240 328)
+)
+(connector
+	(pt 288 376)
+	(pt 280 376)
+	(bus)
+)
+(connector
+	(pt 280 376)
+	(pt 280 368)
+	(bus)
+)
+(connector
+	(text "switchs_export[7..0]" (rect 224 352 317 369)(font "Intel Clear" ))
+	(pt 280 368)
+	(pt 192 368)
+	(bus)
+)
+(connector
+	(text "switchs_export[3..0]" (rect 152 320 245 337)(font "Intel Clear" ))
+	(pt 192 336)
+	(pt 152 336)
+	(bus)
+)
+(connector
+	(pt 104 384)
+	(pt 104 408)
+	(bus)
+)
+(connector
+	(text "switchs_export[7..4]" (rect 104 368 197 385)(font "Intel Clear" ))
+	(pt 104 384)
+	(pt 160 384)
+	(bus)
+)

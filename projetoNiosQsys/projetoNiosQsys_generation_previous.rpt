@@ -1,0 +1,141 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\intelFPGA_lite\16.1\ProjetoNios\projetoNiosQsys.qsys --block-symbol-file --output-directory=C:\intelFPGA_lite\16.1\ProjetoNios\projetoNiosQsys --family="Cyclone IV E" --part=EP4CE30F23C7
+Progress: Loading ProjetoNios/projetoNiosQsys.qsys
+Progress: Reading input file
+Progress: Adding Botao [altera_avalon_pio 16.1]
+Progress: Parameterizing module Botao
+Progress: Adding Display1 [altera_avalon_pio 16.1]
+Progress: Parameterizing module Display1
+Progress: Adding Display_0 [altera_avalon_pio 16.1]
+Progress: Parameterizing module Display_0
+Progress: Adding Switchs [altera_avalon_pio 16.1]
+Progress: Parameterizing module Switchs
+Progress: Adding clk_50 [clock_source 16.1]
+Progress: Parameterizing module clk_50
+Progress: Adding jtag [altera_avalon_jtag_uart 16.1]
+Progress: Parameterizing module jtag
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 16.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 16.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: projetoNiosQsys.Botao: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: projetoNiosQsys.Switchs: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: projetoNiosQsys.jtag: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Warning: projetoNiosQsys.nios2_qsys_0: Nios II Classic cores are no longer recommended for new projects
+Warning: projetoNiosQsys.jtag: Interrupt sender jtag.irq is not connected to an interrupt receiver
+Warning: projetoNiosQsys.jtag: jtag.avalon_jtag_slave must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\intelFPGA_lite\16.1\ProjetoNios\projetoNiosQsys.qsys --synthesis=VERILOG --output-directory=C:\intelFPGA_lite\16.1\ProjetoNios\projetoNiosQsys\synthesis --family="Cyclone IV E" --part=EP4CE30F23C7
+Progress: Loading ProjetoNios/projetoNiosQsys.qsys
+Progress: Reading input file
+Progress: Adding Botao [altera_avalon_pio 16.1]
+Progress: Parameterizing module Botao
+Progress: Adding Display1 [altera_avalon_pio 16.1]
+Progress: Parameterizing module Display1
+Progress: Adding Display_0 [altera_avalon_pio 16.1]
+Progress: Parameterizing module Display_0
+Progress: Adding Switchs [altera_avalon_pio 16.1]
+Progress: Parameterizing module Switchs
+Progress: Adding clk_50 [clock_source 16.1]
+Progress: Parameterizing module clk_50
+Progress: Adding jtag [altera_avalon_jtag_uart 16.1]
+Progress: Parameterizing module jtag
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 16.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 16.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: projetoNiosQsys.Botao: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: projetoNiosQsys.Switchs: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: projetoNiosQsys.jtag: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Warning: projetoNiosQsys.nios2_qsys_0: Nios II Classic cores are no longer recommended for new projects
+Warning: projetoNiosQsys.jtag: Interrupt sender jtag.irq is not connected to an interrupt receiver
+Warning: projetoNiosQsys.jtag: jtag.avalon_jtag_slave must be connected to an Avalon-MM master
+Info: projetoNiosQsys: Generating projetoNiosQsys "projetoNiosQsys" for QUARTUS_SYNTH
+Info: Botao: Starting RTL generation for module 'projetoNiosQsys_Botao'
+Info: Botao:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=projetoNiosQsys_Botao --dir=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0001_Botao_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0001_Botao_gen//projetoNiosQsys_Botao_component_configuration.pl  --do_build_sim=0  ]
+Info: Botao: Done RTL generation for module 'projetoNiosQsys_Botao'
+Info: Botao: "projetoNiosQsys" instantiated altera_avalon_pio "Botao"
+Info: Display1: Starting RTL generation for module 'projetoNiosQsys_Display1'
+Info: Display1:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=projetoNiosQsys_Display1 --dir=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0002_Display1_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0002_Display1_gen//projetoNiosQsys_Display1_component_configuration.pl  --do_build_sim=0  ]
+Info: Display1: Done RTL generation for module 'projetoNiosQsys_Display1'
+Info: Display1: "projetoNiosQsys" instantiated altera_avalon_pio "Display1"
+Info: Switchs: Starting RTL generation for module 'projetoNiosQsys_Switchs'
+Info: Switchs:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=projetoNiosQsys_Switchs --dir=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0003_Switchs_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0003_Switchs_gen//projetoNiosQsys_Switchs_component_configuration.pl  --do_build_sim=0  ]
+Info: Switchs: Done RTL generation for module 'projetoNiosQsys_Switchs'
+Info: Switchs: "projetoNiosQsys" instantiated altera_avalon_pio "Switchs"
+Info: jtag: Starting RTL generation for module 'projetoNiosQsys_jtag'
+Info: jtag:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=projetoNiosQsys_jtag --dir=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0004_jtag_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0004_jtag_gen//projetoNiosQsys_jtag_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag: Done RTL generation for module 'projetoNiosQsys_jtag'
+Info: jtag: "projetoNiosQsys" instantiated altera_avalon_jtag_uart "jtag"
+Info: nios2_qsys_0: Starting RTL generation for module 'projetoNiosQsys_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/eperlcmd.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/intelfpga_lite/16.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/intelfpga_lite/16.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/intelfpga_lite/16.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/intelfpga_lite/16.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=projetoNiosQsys_nios2_qsys_0 --dir=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0005_nios2_qsys_0_gen/ --quartus_bindir=C:/intelfpga_lite/16.1/quartus/bin64 --verilog --config=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0005_nios2_qsys_0_gen//projetoNiosQsys_nios2_qsys_0_processor_configuration.pl  --do_build_sim=0  ]
+Info: nios2_qsys_0: # 2017.11.16 10:25:47 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2017.11.16 10:25:47 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2017.11.16 10:25:50 (*)   Couldn't query license setup in Quartus directory C:/intelfpga_lite/16.1/quartus/bin64
+Info: nios2_qsys_0: # 2017.11.16 10:25:50 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2017.11.16 10:25:50 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2017.11.16 10:25:50 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2017.11.16 10:25:50 (*)   Checking for encrypted license (non-evaluation).
+Info: nios2_qsys_0: # 2017.11.16 10:25:54 (*)   Couldn't query license setup in Quartus directory C:/intelfpga_lite/16.1/quartus/bin64
+Info: nios2_qsys_0: # 2017.11.16 10:25:54 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2017.11.16 10:25:54 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2017.11.16 10:25:54 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: nios2_qsys_0: # 2017.11.16 10:25:54 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2017.11.16 10:25:54 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2017.11.16 10:25:59 (*)     Pipeline frontend
+Info: nios2_qsys_0: # 2017.11.16 10:26:06 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2017.11.16 10:26:17 (*)   Creating encrypted RTL
+Info: nios2_qsys_0: # 2017.11.16 10:26:19 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'projetoNiosQsys_nios2_qsys_0'
+Info: nios2_qsys_0: "projetoNiosQsys" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'projetoNiosQsys_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=projetoNiosQsys_onchip_memory2_0 --dir=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0006_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/LUCIAP~1/AppData/Local/Temp/alt7486_148230917611926419.dir/0006_onchip_memory2_0_gen//projetoNiosQsys_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'projetoNiosQsys_onchip_memory2_0'
+Info: onchip_memory2_0: "projetoNiosQsys" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "projetoNiosQsys" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "projetoNiosQsys" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "projetoNiosQsys" instantiated altera_reset_controller "rst_controller"
+Info: nios2_qsys_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_qsys_0_data_master_translator"
+Info: nios2_qsys_0_jtag_debug_module_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "nios2_qsys_0_jtag_debug_module_translator"
+Info: nios2_qsys_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_qsys_0_data_master_agent"
+Info: nios2_qsys_0_jtag_debug_module_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "nios2_qsys_0_jtag_debug_module_agent"
+Info: nios2_qsys_0_jtag_debug_module_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "nios2_qsys_0_jtag_debug_module_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: nios2_qsys_0_instruction_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "nios2_qsys_0_instruction_master_limiter"
+Info: Reusing file C:/intelFPGA_lite/16.1/ProjetoNios/projetoNiosQsys/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/intelFPGA_lite/16.1/ProjetoNios/projetoNiosQsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/intelFPGA_lite/16.1/ProjetoNios/projetoNiosQsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/intelFPGA_lite/16.1/ProjetoNios/projetoNiosQsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: projetoNiosQsys: Done "projetoNiosQsys" with 30 modules, 48 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

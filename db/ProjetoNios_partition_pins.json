@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "display0_export[7]",
+					"strict" : false
+				},
+				{
+					"name" : "display0_export[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display0_export[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display0_export[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display0_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display0_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display0_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display0_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display1_export[7]",
+					"strict" : false
+				},
+				{
+					"name" : "display1_export[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display1_export[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display1_export[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display1_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display1_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display1_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display1_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_clk",
+					"strict" : false
+				},
+				{
+					"name" : "switchs_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "switchs_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "switchs_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "botao_export",
+					"strict" : false
+				},
+				{
+					"name" : "switchs_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
